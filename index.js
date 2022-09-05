@@ -21,3 +21,8 @@ function generateQuote() {
             console.log(err);
         });
     }
+
+
+quoteBtn.addEventListener('click', generateQuote);
+
+
