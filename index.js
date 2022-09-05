@@ -17,4 +17,7 @@ function generateQuote() {
            nam.textContent = ` -- ${qt.author}`;
 
         })
-
+        .catch(err => {
+            console.log(err);
+        });
+    }
