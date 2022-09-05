@@ -25,5 +25,13 @@ function generateQuote() {
 
 quoteBtn.addEventListener('click', generateQuote);
 
+function like (){
+    document.getElementById("li").style.color = "purple";
+    document.getElementById("di").style.color = "grey";
+}
 
+function dislike (){
+    document.getElementById("di").style.color = "purple";
+    document.getElementById("li").style.color = "grey";
+}
 
