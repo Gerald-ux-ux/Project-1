@@ -86,6 +86,8 @@ body{
 
 
 
+
+
 .quote-wrapper button:hover{
     -webkit-box-shadow: 0px 0px 9px 0px rgba(159, 107, 160, 0.67);
         -moz-box-shadow: 0px 0px 9px 0px rgba(159, 107, 160, 0.67);
@@ -97,5 +99,41 @@ body{
     .quote-wrapper{
         width: 600px;
     }
+}
+
+.wrapper{
+    display: flex;
+    width: 300px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px grey,
+    -2px -2px 5px grey;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+} */
+
+.like_{
+    margin: 25px;
+}
+
+.like i {
+    font-size: 34px;
+}
+
+.dislike{
+    margin: 25px;
+}
+
+.dislike i {
+    font-size: 34px;
 }
 

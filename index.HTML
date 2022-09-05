@@ -8,22 +8,33 @@
     <title>Quote.Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <body>
    <div class="quote-wrapper">
+
+    <div class="wrapper">
+        <div class="like">
+            <i id= "li" class="fas fa-thumbs-up"></i>
+        </div>
+        
+    <div class="dislike">
+        <i id="di"class="fas fa-thumbs-down"></i>
+    </div>
+
+    </div>
+
+
+
+
+
     <h2>Quote Of The Day</h2>
     <blockquote id="quote-text">Better than a thousand hollow words is one word that brings peace.</blockquote>
     <cite id="quote-author"> -- Buddha</cite>
     <button type="button" id="gen-new-quote">Get New Quote</button>
+
    </div>
 
-   <style>
-    body {
-      background-image: url('/');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 100% 100%;
-    }
-    </style>
+
 
     <script src="index.js"></script>
 </body>

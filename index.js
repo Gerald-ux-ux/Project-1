@@ -26,3 +26,4 @@ function generateQuote() {
 quoteBtn.addEventListener('click', generateQuote);
 
 
+
