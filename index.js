@@ -35,3 +35,12 @@ function dislike (){
     document.getElementById("li").style.color = "grey";
 }
 
+//how to create a prompt button?
+function promptMe(){
+    var userAdjective = prompt("Please provide an Adjective");
+    alert (userAdjective);
+}
+
+<button id="bgnBtn" onclick="promptMe()">Start Game</button>
+
+
