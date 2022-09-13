@@ -8,4 +8,4 @@ added a style.css file ,
 added a IndeX.JS , 
 a db.json 
 and finally addeda a readme file documenting on how i went abou the project.
-link to live site "http://127.0.0.1:5501/index.html"
+link to live site "https://gerald-ux-ux.github.io/Project-1/"
